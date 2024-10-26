@@ -1,0 +1,117 @@
+body {
+  padding: 40px 25px 40px 25px;
+  background-color: #e1e6ec;
+}
+
+.title {
+  color: grey;
+  display: inline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.circle-image {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+}
+
+.form-container {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 20px 25px 20px;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto auto auto;
+}
+
+.form-label {
+  color: grey;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.birth-gender-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.birth-input {
+  width: 100%;
+}
+
+.gender-input {
+  width: 100%;
+}
+
+.select-input {
+  appearance: none;
+  width: 100%;
+  height: 31px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 3px;
+}
+
+.add-employee-button {
+  margin: 15px 0px;
+  color: white;
+  background-color: #328af4;
+  border-radius: 3px;
+  border: 0.5px solid black;
+  padding: 9px 15px 9px 15px;
+  font-weight: 600;
+}
+
+hr {
+  margin: 0;
+}
+
+.table-employee-info {
+  box-sizing: border-box;
+  padding: 25px 10px 0 10px;
+  width: 100%;
+}
+
+th,
+td {
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  font-weight: 600;
+}
+
+td {
+  color: grey;
+}
+
+.delete-employee-info {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: 800;
+}

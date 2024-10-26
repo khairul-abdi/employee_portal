@@ -1,0 +1,47 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "fullname": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-234-567-8901",
+      "position": "Software Engineer",
+      "department": "Development",
+      "salary": 12000000,
+      "isActive": true,
+      "address": "Jl. Tanah Kusir IV"
+    },
+    {
+      "id": 2,
+      "fullname": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-234-567-8902",
+      "position": "Product Manager",
+      "department": "Product",
+      "salary": 9500000,
+      "isActive": true,
+      "address": "Jl. Letda Sujono"
+    },
+    {
+      "id": 3,
+      "fullname": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "+1-234-567-8903",
+      "position": "UX Designer",
+      "department": "Design",
+      "salary": 10000000,
+      "isActive": false,
+      "address": "Jl. Maju Raya"
+    },
+    {
+      "id": "cdaa",
+      "fullname": "asdasd",
+      "email": "3434@gmail.com",
+      "phone": "dfsdf353",
+      "position": "Another",
+      "department": "Another",
+      "isActive": "",
+      "address": "asdasds"
+    }
+  ]
+}
