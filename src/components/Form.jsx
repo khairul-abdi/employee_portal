@@ -102,7 +102,7 @@ const Form = (props) => {
               required
               className="form-input"
               name="email"
-              type="text"
+              type="email"
               id="input-email"
               onChange={handleChange}
               value={formData.email}
@@ -135,6 +135,7 @@ const Form = (props) => {
               value={formData.phone}
               data-testid="position"
             >
+              <option selected>Position</option>
               <option value="Backend Developer">Backend Developer</option>
               <option value="Frontend Developer">Frontend Developer</option>
               <option value="UI/UX Designer">UI/UX Designer</option>
@@ -152,6 +153,7 @@ const Form = (props) => {
               value={formData.isActive}
               data-testid="is-active"
             >
+              <option selected>Status</option>
               <option value="active">Active</option>
               <option value="inactive">In Active</option>
             </select>

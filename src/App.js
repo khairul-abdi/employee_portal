@@ -36,7 +36,7 @@ const App = () => {
   }
 
   if (!data) {
-    return null; // If there's no data after loading, return null
+    return <p>Empty Data</p>; // If there's no data after loading, return null
   }
 
   return (
